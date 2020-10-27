@@ -20,6 +20,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      env: 
+        MONGO_DB_CONNECTION_STRING: ${{ secrets.MONGO_DB_CONNECTION_STRING }} 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
