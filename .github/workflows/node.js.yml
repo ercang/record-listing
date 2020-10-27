@@ -24,4 +24,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm run ci-checks
+    - name: BE Tests
+      env: 
+        MONGO_DB_CONNECTION_STRING: ${{ secrets.MONGO_DB_CONNECTION_STRING }} 
+        PORT: 8080  
+      run: npm run ci-checks
