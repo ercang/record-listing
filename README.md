@@ -1,7 +1,7 @@
 # Record-Listing
 Record-Listing is a sample application to validate requests and fetch records from a Mongo database using Mongoose.
 
-You can check the demo at [link will be updated]
+You can check the demo at [link will be updated].
 
 
 ## How to run
