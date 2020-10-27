@@ -1,6 +1,9 @@
 # Record-Listing
 Record-Listing is a sample application to validate requests and fetch records from a Mongo database using Mongoose.
 
+![NodeJS Workflow](https://github.com/ercang/record-listing/blob/main/.github/workflows/node.js.yml/badge.svg)
+
+
 You can check the demo at [link will be updated].
 
 
