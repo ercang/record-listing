@@ -5,8 +5,20 @@
 
 Record-Listing is a sample application to validate requests and fetch records from a Mongo database using Mongoose.
 
-You can check the demo at [link will be updated].
+You can check the demo at https://ercang-record-listing.herokuapp.com/
 
+```
+// End point
+https://ercang-record-listing.herokuapp.com/records
+
+// Example POST request
+{
+    "startDate": "2000-01-01",
+    "endDate": "2020-01-01",
+    "minCount": 2000,
+    "maxCount": 3000
+}
+```
 
 ## How to run
 ```
