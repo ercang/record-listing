@@ -44,7 +44,7 @@ It implements the server class. It initializes objects for schema validation and
 ### MongooseDBAccess
 DB Access class is written with Mongoose. It is possible to implement this layer with another technology when required. It is the actual class that retrieves records.
 
-### RecordModel.js
+### RecordModel
 Model and schema definition for record data
 
 ### RecordsFetcher
