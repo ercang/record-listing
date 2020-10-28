@@ -1,5 +1,9 @@
 const mongoose = require('mongoose');
 
+/**
+ * Model and schema definition for record data
+ */
+
 const recordSchema = new mongoose.Schema({
     key: String,
     value: String,

@@ -1,6 +1,10 @@
 
 const Joi = require('joi');
 
+/**
+ * This class validates a request input. It uses JOI for validation.
+ * Any future validation related methods can be added to this class.
+ */
 class SchemaValidator {
     constructor() {
         this.recordRequestSchema = Joi.object().keys({

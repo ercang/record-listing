@@ -1,6 +1,11 @@
 const SchemaValidator = require('./SchemaValidator')
 const ErrorCodes = require('./ErrorCodes')
 
+/**
+ * This uses a DB access object and schema validator to fetch records.
+ * It is possible to pass a different DB access object to make it work
+ * with different database technologies. This class is used by the Server class.
+ */
 class RecordFetcher {
     constructor({ dbAccess }) {
         this.dbAccess = dbAccess;

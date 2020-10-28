@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 const RecordModel = require('./RecordModel')
 
+/**
+ * DB Access class is written with Mongoose. It is possible to implement this layer with
+ * another technology when required. It is the actual class that retrieves records.
+ */
 class MongooseDBAccess {
     constructor() {
         this.db = undefined;

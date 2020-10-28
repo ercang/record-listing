@@ -1,3 +1,7 @@
+/**
+ * Custom error code definitions are related HTTP status codes
+ */
+
 module.exports = {
     'NO_ERROR': {
         'code': 0,

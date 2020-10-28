@@ -1,6 +1,6 @@
 const SchemaValidator = require('../src/SchemaValidator');
 
-test('Validate a valid request schema', () => {
+test('Validate a correct request schema', () => {
     const correctSchema = {
         "startDate": "2016-01-26",
         "endDate": "2018-02-02",

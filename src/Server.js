@@ -6,6 +6,12 @@ require('dotenv').config();
 const MongooseDBAccess = require('./MongooseDBAccess');
 const RecordFetcher = require('./RecordFetcher');
 
+/**
+ * It implements the server class. It initializes objects for schema
+ * validation and database connection. Also starts the HTTP server for
+ * accepting requests. This class implements the HTTP server related
+ * functionality and uses RecordsFetcher class.
+ */
 class Server {
     async init() {
         this.mongooseDBAccess = new MongooseDBAccess();
